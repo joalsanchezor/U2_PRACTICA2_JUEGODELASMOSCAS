@@ -72,7 +72,7 @@ class Lienzo(p:MainActivity) : View(p) {
         if(accion == MotionEvent.ACTION_DOWN){
             //Tocas
             (0..79).forEach{
-                if(hiloMosca.moscas[it].vidaMosca == true)hiloMosca.moscas[it].estaEnArea(e.x, e.y)
+                if((hiloMosca.moscas[it].vidaMosca == true) && hiloMosca.juego == true)hiloMosca.moscas[it].estaEnArea(e.x, e.y)
             }
         }
 
