@@ -1,0 +1,10 @@
+package mx.tecnm.tepic.ladm_u2_ejercicio4
+
+import android.graphics.*
+import android.view.View
+
+class Lienzo(p:MainActivity) : View(p) {
+    val principal = p
+    val santa = BitmapFactory.decodeResource(principal.resou
+# Project exclude paths
+/.gradle/
