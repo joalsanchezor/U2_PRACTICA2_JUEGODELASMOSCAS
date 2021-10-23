@@ -31,25 +31,25 @@ class Mosca(m: Lienzo) {
                     //derecha
                     moscaX += ((Math.random()*15)+1).toFloat()
 
-                    if (moscaX >= 1300) moscaX -= ((Math.random()*15)+1).toFloat()
+                    if (moscaX >= 600) moscaX -= ((Math.random()*15)+1).toFloat()
                     if (moscaX <= 0) moscaX += ((Math.random()*15)+1).toFloat()
                 }
                 1 -> {
                     //izquierda
                     moscaX -= ((Math.random()*15)+1).toFloat()
                     if (moscaX <= 0) moscaX += ((Math.random()*15)+1).toFloat()
-                    if (moscaX >= 1300) moscaX -= ((Math.random()*15)+1).toFloat()
+                    if (moscaX >= 600) moscaX -= ((Math.random()*15)+1).toFloat()
                 }
                 2-> {
                     //arriba
                     moscaY -= ((Math.random()*15)+1).toFloat()
                     if (moscaY <= 0) moscaY += ((Math.random()*15)+1).toFloat()
-                    if (moscaY >= 600) moscaY -= ((Math.random()*15)+1).toFloat()
+                    if (moscaY >= 1200) moscaY -= ((Math.random()*15)+1).toFloat()
                 }
                 3-> {
                     //abajo
                     moscaY += ((Math.random()*15)+1).toFloat()
-                    if (moscaY >= 600) moscaY -= ((Math.random()*15)+1).toFloat()
+                    if (moscaY >= 1200) moscaY -= ((Math.random()*15)+1).toFloat()
                     if (moscaY <= 0) moscaY += ((Math.random()*15)+1).toFloat()
                 }
             }
